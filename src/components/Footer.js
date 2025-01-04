@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './Footer.css';
+import { Box, Typography } from '@mui/material';
 
 export default function Footer() {
   return (
@@ -29,7 +30,19 @@ export default function Footer() {
         </div>
       </div>
       <div className="footer-bottom">
-        <p>&copy; 2023 ResuSort. All rights reserved.</p>
+        <Box sx={{ display: 'flex', alignItems: 'center', gap: 2 }}>
+          <img 
+            src="/logo-icon.svg" 
+            alt="ResuSort"
+            style={{ 
+              height: 24,
+              width: 'auto'
+            }} 
+          />
+          <Typography variant="body2" color="text.secondary">
+            © {new Date().getFullYear()} ResuSort. All rights reserved.
+          </Typography>
+        </Box>
       </div>
     </footer>
   );
