@@ -1,0 +1,36 @@
+.functional-area-selection {
+  margin-bottom: 2rem;
+}
+
+.section-title {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #343a40;
+}
+
+.area-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1rem;
+}
+
+.area-button {
+  padding: 1rem;
+  background-color: #f8f9fa;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-weight: 500;
+}
+
+.area-button:hover {
+  background-color: #e9ecef;
+}
+
+.area-button.selected {
+  background-color: #007bff;
+  color: #fff;
+  border-color: #007bff;
+}
+

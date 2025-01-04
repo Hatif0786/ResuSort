@@ -1,0 +1,40 @@
+.job-description-match {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.section-title {
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+  color: #343a40;
+}
+
+.job-description-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.job-description-section {
+  margin-bottom: 2rem;
+}
+
+.job-description-subtitle {
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+  color: #343a40;
+}
+
+.job-description-list {
+  list-style-type: disc;
+  padding-left: 1.5rem;
+}
+
+.job-description-item {
+  margin-bottom: 0.5rem;
+  color: #495057;
+}
+

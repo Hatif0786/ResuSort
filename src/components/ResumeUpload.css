@@ -1,0 +1,93 @@
+.resume-upload {
+  margin-bottom: 2rem;
+}
+
+.section-title {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #343a40;
+}
+
+.upload-area {
+  border: 2px dashed #ced4da;
+  border-radius: 4px;
+  padding: 2rem;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.upload-area:hover {
+  border-color: #007bff;
+}
+
+.file-input {
+  display: none;
+}
+
+.upload-icon {
+  width: 48px;
+  height: 48px;
+  margin-bottom: 1rem;
+  color: #6c757d;
+}
+
+.upload-text {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+  color: #495057;
+}
+
+.upload-subtext {
+  font-size: 0.8rem;
+  color: #6c757d;
+}
+
+.file-selected {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.file-name {
+  font-size: 1rem;
+  color: #007bff;
+  font-weight: 500;
+}
+
+.experience-input {
+  margin-bottom: 1rem;
+}
+
+.experience-input label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  color: #333;
+}
+
+.experience-input input {
+  width: 100%;
+  max-width: 200px;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.experience-input input:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 0 2px rgba(0,123,255,0.25);
+}
+
+.experience-input input::-webkit-outer-spin-button,
+.experience-input input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.experience-input input[type=number] {
+  -moz-appearance: textfield;
+}
+

@@ -1,0 +1,79 @@
+.designation-selection {
+  margin: 2rem 0;
+  text-align: left;
+}
+
+.designation-select {
+  width: 100%;
+  padding: 0.75rem;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background-color: white;
+  cursor: pointer;
+  transition: border-color 0.3s ease;
+}
+
+.designation-select:hover {
+  border-color: #007bff;
+}
+
+.designation-select:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 0 2px rgba(0,123,255,0.25);
+}
+
+.designation-select option {
+  padding: 0.5rem;
+}
+
+.designation-select option:first-child {
+  color: #666;
+}
+
+/* Add some hover effect for options in modern browsers */
+.designation-select option:hover,
+.designation-select option:focus {
+  background-color: #f8f9fa;
+}
+
+/* Styling for disabled option */
+.designation-select option[disabled] {
+  color: #999;
+}
+
+.error-message {
+  color: #dc3545;
+  padding: 1rem;
+  border: 1px solid #dc3545;
+  border-radius: 4px;
+  margin-top: 1rem;
+  background-color: #fff;
+}
+
+.loading-spinner {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.spinner {
+  width: 24px;
+  height: 24px;
+  border: 3px solid #f3f3f3;
+  border-top: 3px solid #007bff;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.designation-select:disabled {
+  background-color: #e9ecef;
+  cursor: not-allowed;
+}
+

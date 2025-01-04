@@ -1,0 +1,57 @@
+.detailed-analysis {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.section-title {
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+  color: #343a40;
+}
+
+.analysis-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.analysis-section {
+  margin-bottom: 1.5rem;
+}
+
+.analysis-subtitle {
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+  color: #343a40;
+}
+
+.analysis-list {
+  list-style-type: disc;
+  padding-left: 1.5rem;
+}
+
+.analysis-item {
+  margin-bottom: 0.5rem;
+  color: #495057;
+}
+
+.proficiency-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+}
+
+.proficiency-name {
+  font-weight: 500;
+  color: #343a40;
+}
+
+.proficiency-score {
+  color: #007bff;
+  font-weight: bold;
+}
+
