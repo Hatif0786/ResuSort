@@ -6,6 +6,7 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 import HomePage from './pages/HomePage';
 import LoginRegister from './components/LoginRegister';
+import ResumeAnalyzer from './components/ResumeAnalyzer';
 import './App.css';
 
 const theme = createTheme({
@@ -46,6 +47,7 @@ function App() {
           <Routes>
             <Route path="/" element={<HomePage />} />
             <Route path="/login" element={<LoginRegister />} />
+            <Route path="/analyze" element={<ResumeAnalyzer />} />
           </Routes>
         </main>
         <Footer />
